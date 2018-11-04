@@ -1,0 +1,29 @@
+#info{
+	height: 75px;
+	border: 1px solid black;
+}
+#audio{
+	display: none;
+}
+body{
+	width: 100%;
+	background-color: rgba(97, 218, 172, 0.8);
+}
+header{
+	background-color: rgb(103, 212, 136);
+	color: rgb(231, 94, 90);
+	font-size: 25pt;
+	background-position: top;
+	margin: 5px;
+	height: 100px;
+	width: 100%;
+	background-attachment: fixed;
+}
+div{
+	height: 370px;
+	width: 100%;
+	background-attachment: fixed;
+	float: left;
+	background-color: rgb(255, 159, 113);
+	color: rgb(62, 109, 185);
+}

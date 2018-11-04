@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>SUIT</title>
+	<script src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<body>
+		<header><h1 align="center">Permainan Suit</h1></header>
+		<div>
+		<table align="center">
+			<tr>
+				<td>
+					<h2>Computer ?</h2><br/>
+					<img src="img/tt.jpg" id="enemy" height="100"/>
+				</td>
+				<td><h2>VS</h2></td>
+				<td>
+					<h2 align="center">Your Choice</h2>
+					<img src="img/batu.png" height="100" id="batu" onclick="batu()" />
+					<img src="img/gunting.png" height="100" id="gunting" onclick="gunting()" />
+					<img src="img/kertas.png" height="100" id="kertas" onclick="kertas()" />
+				</td>
+			</div>
+			</tr>
+			<tr>
+				<td><img id="hasil1" height="100"/></td>
+				<td><h2>DENGAN</h2></td>
+				<td><img id="hasil2" height="100"/></td>
+			</tr>
+			<tr>
+				<td><audio controls id="audio" autoplay><source src="audio/drow.m4a" type="audio/mpeg"></audio></td>
+				<td></td>
+				<td>
+					<div id="info">
+						<h1 id="status"></h1>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	</body>
+</html>
